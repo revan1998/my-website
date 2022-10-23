@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+h1 {
+    font-family: 'Yomogi', cursive;
+}
+h2{
+    font-family: Revalia, Arial, Helvetica, sans-serif;
+}
+ p{
+    font-family: 'Montserrat', sans-serif;
+ }
+.logo{
+    height: 100px;
+    width: 100px;
+    
+   
+}
+.links{
+    margin-top: 30px;
+   
+   
+}
+.links a{
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 10px;
+    text-decoration:none ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+.links a:hover{
+    background-color: black;
+    color: white;
+}
+.container{
+    position: relative;
+    width: 100%;
+    
+}
+.intro{
+    margin-top: 70px;
+}
+.intro h1{
+    font-size: 50px;
+    font-family: hachi maru pop,Kalam,sacramento,sans-serif;
+}
+
+.intro p{
+    font-size:25px ;
+    margin-top: 30px;
+}
+.intro span{
+    text-decoration: underline;
+}
+.middle-container{
+   margin-top: 60px;
+   
+  
+}
+.middle-container img{
+    height: 100px;
+    width: 100px;
+}
+.middle-container p{
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+hr{
+    border-top: 8px dotted black;
+   margin-left: 45%;
+   margin-right: 45%;    
+   margin-top: 40px;
+}
+.mytitle{
+    margin-top: 40px;
+}
+.skills-container{
+    display: flex;
+    margin-top: 60px;
+    padding: 5px;
+   
+}
+.skills-container img{
+    height: 170px;
+    width: 170px;
+}
+.html, .css, .javascript {
+    border: 1px solid black;
+    padding: 10px;
+    width:28%;
+    margin: 25px;
+    box-shadow: 0 12px  20px 0px rgba(17, 17, 17, 0.2);
+}
+
+
+p{
+    line-height: 25px;
+    font-size: 20px;  
+}
+
+
+.contact {
+    margin-top: 40px;
+    padding: 10px;
+}
+.contact p {
+    margin: 40px;
+}
+
+.contact button{
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact button:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    margin-top: 100px;
+    height: 200px;
+ 
+}
+.footer a{
+   margin: 30px;
+  
+  
+}
+.footer p{
+   margin: 60px 0 0 0;
+   font-size: small;
+}
+
+.footer-links{
+    display: inline-block;
+}
+
+@media(max-width:600px){
+    .head{
+        margin-left: 10%;
+        width: 100%;
+    }
+    .head a{
+        display: inline;
+    }
+   .links a{
+    padding: 5px;
+   }
+   .container{
+    width: 120%;
+   }
+   .skills-container{
+    display: block;
+    width:100%;
+    margin-top: 0;
+    
+   
+   }
+    .skills-container >.html, .css, .javascript{
+        width: 100%;
+       
+   
+    } 
+    .contact{
+        width: 100%;
+        margin-left: 10%;
+
+    }
+    .footer{
+        width: 100%;
+        margin-left: 10%;
+       
+    }
+   hr{
+    display: none;
+   }
+    .mytitle{
+        
+        margin-left: 10%;
+    }
+
+}
